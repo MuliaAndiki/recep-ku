@@ -1,4 +1,4 @@
-import LandingPageComponent from "@/app/components/pages/landing-page/landing-page";
+import LandingPageComponent from "@/app/components/pages/landing-page/Landing-page";
 
 const LandingPage = () => {
   return <LandingPageComponent />;

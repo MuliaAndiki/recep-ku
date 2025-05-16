@@ -1,4 +1,4 @@
-import LandingLayout from "@/app/components/pages/landing-page/layout";
+import LandingLayoutComponent from "@/app/components/pages/landing-page/layout";
 export default function LandingPageLayout({
   children,
 }: {
@@ -6,7 +6,7 @@ export default function LandingPageLayout({
 }) {
   return (
     <>
-      <LandingLayout>{children}</LandingLayout>
+      <LandingLayoutComponent>{children}</LandingLayoutComponent>
     </>
   );
 }
