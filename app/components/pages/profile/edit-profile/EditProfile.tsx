@@ -130,7 +130,6 @@ const EditProfileComponent: React.FC = () => {
             </div>
 
             <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden self-start border">
-              {/* Preview image */}
               {profilePic && (
                 <Image
                   src={URL.createObjectURL(profilePic)}
@@ -152,10 +151,7 @@ const EditProfileComponent: React.FC = () => {
           </div>
 
           <div className="flex gap-4 mt-8">
-            <button
-              className="border-2 border-orange-500 px-6 py-2 text-orange-500 rounded-md"
-              onClick={() => window.location.reload()}
-            >
+            <button className="border-2 border-orange-500 px-6 py-2 text-orange-500 rounded-md">
               Cancel
             </button>
             <button

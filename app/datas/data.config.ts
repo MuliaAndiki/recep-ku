@@ -1,9 +1,45 @@
 import { NavbarConfig, FooterConfig } from "../types/app.config";
 import footDumy from "@/public/assest/footDumy.png";
-import { MenuSpesialTypes, TestiMoniTypes } from "../types/API";
+import rekomdummy from "@/public/assest/Rekomendasi.svg";
+import { MenuSpesialTypes, TestiMoniTypes, ResepTypes } from "../types/API";
 import ProfileDummy from "@/public/assest/profileDummy.png";
+import DonutDummy from "@/public/assest/Donut.svg";
 
-export const NavbarConfigData: NavbarConfig[] = [
+export const RekomendasiTypesData: ResepTypes[] = [
+  {
+    image: rekomdummy,
+    title: "Pancake",
+    desc: "Kue lembut pipih, cocok untuk sarapan manis.",
+    href: "/",
+    star: "5",
+  },
+];
+
+export const ReserpTerbatuTypesData: ResepTypes[] = [
+  {
+    image: DonutDummy,
+    title: "Donut",
+    desc: "Donat buatan sendiri yang menggugah selera dengan adonan lembut dan topping lezat..",
+    href: "/",
+    star: "5",
+  },
+  {
+    image: DonutDummy,
+    title: "Donut",
+    desc: "Donat buatan sendiri yang menggugah selera dengan adonan lembut dan topping lezat..",
+    href: "/",
+    star: "5",
+  },
+  {
+    image: DonutDummy,
+    title: "Donut",
+    desc: "Donat buatan sendiri yang menggugah selera dengan adonan lembut dan topping lezat..",
+    href: "/",
+    star: "5",
+  },
+];
+
+export const NavbarLandingConfigData: NavbarConfig[] = [
   {
     title: "Product",
     href: "/",
@@ -18,26 +54,48 @@ export const NavbarConfigData: NavbarConfig[] = [
   },
 ];
 
+export const NavbarDashboardConfigData: NavbarConfig[] = [
+  {
+    title: "Home",
+    href: "/dasboard",
+  },
+  {
+    title: "My Recipes",
+    href: "/dasboard/my-recipes",
+  },
+  {
+    title: "Like Recipes",
+    href: "/",
+  },
+  {
+    title: "Save Recipes",
+    href: "/dasboard/save-recepies",
+  },
+];
 export const MenuSpesialTypesData: MenuSpesialTypes[] = [
   {
     image: footDumy,
     title: "Kari Special",
-    desc: "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
+    shortDescription:
+      "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
   },
   {
     image: footDumy,
     title: "Kari Special",
-    desc: "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
+    shortDescription:
+      "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
   },
   {
     image: footDumy,
     title: "Kari Special",
-    desc: "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
+    shortDescription:
+      "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
   },
   {
     image: footDumy,
     title: "Kari Special",
-    desc: "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
+    shortDescription:
+      "Ayam empuk dengan kuah kental penuh rempah, gurihnya nendang banget!",
   },
 ];
 

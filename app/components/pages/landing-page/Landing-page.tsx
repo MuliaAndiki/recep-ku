@@ -1,3 +1,4 @@
+"use client";
 import SideLandSvg from "../../svg/LandingPage/sidelan";
 import FootSVG from "../../svg/LandingPage/food";
 import BgFoot from "../../svg/LandingPage/bg-foog";
@@ -9,33 +10,36 @@ import BawangSVG from "../../svg/LandingPage/bawang";
 import RameSVG from "../../svg/LandingPage/ramen";
 import Testimoni from "../../components/Card/LandingPage/TestiMoni";
 import { TestiMoniTypesData } from "@/app/datas/data.config";
+import Link from "next/link";
+import { useHook } from "@/app/hooks/kontex";
 const LandingPageComponent: React.FC = () => {
   return (
     <main className="h-full w-full ">
-      <div className="w-[100vw] h-[100vh] bg-[#ECE7D4] relative z-[-1] flex justify-center">
+      <div className="w-[100vw] h-[100vh] bg-[#ECE7D4] relative z-1 flex justify-center">
         <div className="flex items-center absolute inset-0">
           <BgFoot />
         </div>
-        <div className="flex justify-end w-full h-[100vh] absolute inset-0 top-1 scale-101 z-0">
+        <div className="flex justify-end w-full h-[100vh] absolute inset-0 top-1 scale-101">
           <SideLandSvg />
         </div>
-        <div className="flex items-center justify-center ">
+        <div className="flex items-center justify-center z-2">
           <div className="flex justify-between items-center w-350">
             <div className="w-full h-full">
               <div className="flex justify-center items-center flex-col">
                 <div className="w-[29vw]">
                   <h1 className="font-extrabold text-[3rem] ">
-                    {" "}
                     Temukan Cara Praktis Membuat Makanan Favorit Anda
                   </h1>
                   <span className="font-semibold">
                     Eggs, Salad, fruits, pasta
                   </span>
-                  <div className=" w-80 h-15  bg-[#FDC741] flex justify-center items-center rounded-full mt-20">
-                    <button className="font-bold text-[1rem]">
-                      Temukan Lebih Banyak
-                    </button>
-                  </div>
+                  <Link href="/auth/login">
+                    <div className=" w-80 h-15 bg-[#FDC741] flex justify-center items-center rounded-full mt-20 border-1 duration-[0.3s] hover:scale-110 z-100 ">
+                      <button className="font-bold text-[1rem] " type="button">
+                        Temukan Lebih Banyak
+                      </button>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -47,7 +51,7 @@ const LandingPageComponent: React.FC = () => {
       </div>
 
       {/* Section */}
-      <section className="w-[100vw] h-[100vh] bg-[#ECE7D4]">
+      <section className="w-screen h-screen bg-[#ECE7D4] z-3">
         <main className="flex justify-center items-center flex-col">
           <div className="flex justify-center items-center flex-col">
             <h1 className="font-semibold text-[2rem]">
@@ -60,17 +64,17 @@ const LandingPageComponent: React.FC = () => {
           </div>
 
           <div className="w-full justify-center items-center flex">
-            <div className="justify-around flex items-center gap-4 mt-20">
-              {MenuSpesialTypesData.map((items, key) => (
+            {/* <div className="justify-around flex items-center gap-4 mt-20">
+              {allRecipes?.slice(0, 3).map((items, key) => (
                 <MenuSpesial key={key} data={items} />
               ))}
-            </div>
+            </div> */}
           </div>
         </main>
       </section>
 
       {/* Section */}
-      <section className="w-[100vw] h-[100vh] bg-[#ECE7D4] z-[-1] relative">
+      <section className="w-screen h-screen bg-[#ECE7D4] z-[-1] relative">
         <div className="flex absolute z-1 bottom-0">
           <SayurSVG />
         </div>

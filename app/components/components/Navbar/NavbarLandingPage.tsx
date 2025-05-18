@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NavbarConfigData } from "@/app/datas/data.config";
+import { NavbarLandingConfigData } from "@/app/datas/data.config";
 import { CircleUser } from "lucide-react";
 import IconRecepku from "../../svg/LandingPage/Icon";
 
@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
             <h1 className="font-semibold">Recep-Ku</h1>
           </div>
           <div className="flex justify-center gap-[6vw]">
-            {NavbarConfigData.map((items, key) => (
+            {NavbarLandingConfigData.map((items, key) => (
               <div className="flex" key={key}>
                 <Link href={items.href}>
                   <h1 className="font-bold">{items.title}</h1>

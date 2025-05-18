@@ -1,6 +1,6 @@
 import Navbar from "@/app/components/components/Navbar/NavbarLandingPage";
 import Footer from "../../components/Footer/Footer";
-export default function LandingLayoutComponent({
+export default function ResepLayoutComponent({
   children,
 }: {
   children: React.ReactNode;

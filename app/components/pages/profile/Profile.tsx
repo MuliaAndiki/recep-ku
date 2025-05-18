@@ -58,20 +58,15 @@ const ProfileComponent: React.FC = () => {
                   {currentUser?.user.phoneNumber}
                 </h1>
               </div>
-
-              <div>
-                <label className="block font-medium">Password</label>
-                <h1 className="border rounded-md p-2 w-full">{}</h1>
-              </div>
             </div>
 
             <div className="relative w-[120px] h-[120px] rounded-full overflow-hidden self-start">
-              {/* <Image
-                src={currentUser?.user.profilePicAlias}
+              <Image
+                src={currentUser?.user.profilePic}
                 alt="Profile"
                 fill
                 className="object-cover"
-              /> */}
+              />
               <div className="absolute bottom-0 right-0 bg-white p-1 rounded-full shadow cursor-pointer">
                 <Pencil size={18} color="#F6971F" />
               </div>

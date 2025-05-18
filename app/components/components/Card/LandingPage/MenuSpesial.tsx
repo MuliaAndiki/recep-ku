@@ -15,7 +15,7 @@ const MenuSpesial: React.FC<MenuSpesialTypesProps> = ({ data }) => {
         <div className="flex flex-col items-center justify-center">
           <h1 className="font-extrabold my-4 text-[1.9rem] ">{data.title}</h1>
           <span className="text-center w-[13vw] text-[1.6rem]">
-            {data.desc}
+            {data.shortDescription}
           </span>
         </div>
       </div>
