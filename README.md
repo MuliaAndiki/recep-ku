@@ -1,8 +1,7 @@
-🧑‍🍳 Recepku — Temukan & Bagikan Resep Favoritmu!
-Recepku adalah platform berbagi resep masakan yang memudahkan pengguna untuk menulis, mengedit, menghapus, dan membaca berbagai resep makanan favorit. Aplikasi ini dibuat dengan penuh semangat oleh tim kami yang terdiri dari:
+🍳 Recepku — Platform Berbagi Resep Masakan
+Recepku adalah aplikasi berbagi resep yang memungkinkan pengguna untuk membuat, melihat, menghapus resep, dan mengedit profil mereka. Dibangun oleh tim yang bersemangat dalam dunia kuliner dan teknologi:
 
 👥 Tim Pengembang
-
 Mulia Andiki
 
 Akrima Usri
@@ -11,35 +10,38 @@ Cut Renata
 
 Muhammad Faruqi
 
-Yafi Hidayatullah
+Hidayatullah
 
-🚀 Fitur Utama
-✨ CRUD Resep
+✨ Fitur Utama (CRUD)
+Create (C): Pengguna dapat menambahkan resep baru lengkap dengan nama masakan, bahan-bahan, langkah memasak, dan foto.
 
-Create: Tambahkan resep baru dengan nama, bahan, dan cara pembuatan.
+Read (R): Pengguna dapat melihat daftar resep yang telah dibagikan oleh pengguna lain.
 
-Read: Telusuri daftar resep yang telah dibagikan oleh pengguna lain.
+Update (U): Pengguna dapat mengubah data profil mereka seperti nama, email, dan foto profil.
 
-Update: Edit resep yang sudah kamu buat.
+Delete (D): Pengguna dapat menghapus resep yang telah mereka buat.
 
-Delete: Hapus resep milikmu kapan saja.
-
-🛠️ Teknologi yang Digunakan
-Frontend
-
-Next.js
+⚙️ Teknologi yang Digunakan
+💻 Frontend
+Next.js (React Framework)
 
 TypeScript
 
-Figma (Desain UI/UX)
+Figma (UI/UX Design)
 
-Backend
-
+🔧 Backend
 Express.js
 
-MongoDB (Database NoSQL)
+MongoDB
 
-📦 Cara Menjalankan Proyek
+📂 Struktur Proyek
+bash
+Copy
+Edit
+recepku/
+├── frontend/ # Next.js + TypeScript
+└── backend/ # Express.js + MongoDB
+📦 Cara Menjalankan Aplikasi
 
 1. Clone Repository
    bash
@@ -61,20 +63,13 @@ MongoDB (Database NoSQL)
    cd backend
    npm install
    npm run dev
-   🌐 Struktur Proyek
-   bash
-   Copy
-   Edit
-   recepku/
-   ├── frontend/ # Next.js + TypeScript
-   └── backend/ # Express.js + MongoDB
-   💡 Catatan Tambahan
-   Pastikan MongoDB sudah berjalan secara lokal atau gunakan layanan cloud seperti MongoDB Atlas.
+4. Setup .env
+   Pastikan environment variable sudah dikonfigurasi dengan benar untuk koneksi MongoDB dan pengaturan server.
 
-File .env dibutuhkan untuk konfigurasi koneksi database dan port server.
+📝 Catatan
+Backend akan menyediakan endpoint untuk membuat dan menghapus resep, serta memperbarui data profil.
 
-❤️ Terima Kasih
-Kami berharap Recepku dapat menjadi tempat inspiratif bagi pecinta masakan untuk berbagi dan menemukan ide-ide kuliner baru.
-Selamat memasak dan berkreasi!
+Pastikan MongoDB berjalan lokal atau menggunakan MongoDB Atlas.
 
-Kalau kamu mau README ini dalam versi bahasa Inggris atau ada tambahan seperti gambar/preview UI, dokumentasi API, atau rencana fitur lanjutan, tinggal bilang saja!
+❤️ Penutup
+Recepku hadir sebagai ruang berbagi bagi pecinta kuliner. Temukan resep menarik, unggah kreasi masakanmu, dan tunjukkan siapa kamu lewat profilmu!
