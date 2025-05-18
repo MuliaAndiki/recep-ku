@@ -11,7 +11,7 @@ Cut Renata (UI/UX)
 
 Muhammad Faruqi (BackEnd)
 
-Yafi Hidayatullah 2308107010059
+Yafi Hidayatullah 2308107010059 (UI/UX)
 
 ✨ Fitur Utama (CRUD)
 Create (C): Pengguna dapat menambahkan resep baru lengkap dengan nama masakan, bahan-bahan, langkah memasak, dan foto.
