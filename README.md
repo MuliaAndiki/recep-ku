@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧑‍🍳 Recepku — Temukan & Bagikan Resep Favoritmu!
+Recepku adalah platform berbagi resep masakan yang memudahkan pengguna untuk menulis, mengedit, menghapus, dan membaca berbagai resep makanan favorit. Aplikasi ini dibuat dengan penuh semangat oleh tim kami yang terdiri dari:
 
-## Getting Started
+👥 Tim Pengembang
 
-First, run the development server:
+Mulia Andiki
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Akrima Usri
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Cut Renata
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Muhammad Faruqi
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Yafi Hidayatullah
 
-## Learn More
+🚀 Fitur Utama
+✨ CRUD Resep
 
-To learn more about Next.js, take a look at the following resources:
+Create: Tambahkan resep baru dengan nama, bahan, dan cara pembuatan.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Read: Telusuri daftar resep yang telah dibagikan oleh pengguna lain.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Update: Edit resep yang sudah kamu buat.
 
-## Deploy on Vercel
+Delete: Hapus resep milikmu kapan saja.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🛠️ Teknologi yang Digunakan
+Frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js
+
+TypeScript
+
+Figma (Desain UI/UX)
+
+Backend
+
+Express.js
+
+MongoDB (Database NoSQL)
+
+📦 Cara Menjalankan Proyek
+
+1. Clone Repository
+   bash
+   Copy
+   Edit
+   git clone https://github.com/username/recepku.git
+   cd recepku
+2. Jalankan Frontend
+   bash
+   Copy
+   Edit
+   cd frontend
+   npm install
+   npm run dev
+3. Jalankan Backend
+   bash
+   Copy
+   Edit
+   cd backend
+   npm install
+   npm run dev
+   🌐 Struktur Proyek
+   bash
+   Copy
+   Edit
+   recepku/
+   ├── frontend/ # Next.js + TypeScript
+   └── backend/ # Express.js + MongoDB
+   💡 Catatan Tambahan
+   Pastikan MongoDB sudah berjalan secara lokal atau gunakan layanan cloud seperti MongoDB Atlas.
+
+File .env dibutuhkan untuk konfigurasi koneksi database dan port server.
+
+❤️ Terima Kasih
+Kami berharap Recepku dapat menjadi tempat inspiratif bagi pecinta masakan untuk berbagi dan menemukan ide-ide kuliner baru.
+Selamat memasak dan berkreasi!
+
+Kalau kamu mau README ini dalam versi bahasa Inggris atau ada tambahan seperti gambar/preview UI, dokumentasi API, atau rencana fitur lanjutan, tinggal bilang saja!
