@@ -2,15 +2,15 @@
 Recepku adalah aplikasi berbagi resep yang memungkinkan pengguna untuk membuat, melihat, menghapus resep, dan mengedit profil mereka. Dibangun oleh tim yang bersemangat dalam dunia kuliner dan teknologi:
 
 👥 Tim Pengembang
-Mulia Andiki
+Mulia Andiki (Frontend)
 
-Akrima Usri
+Akrima Usri (UI/UX)
 
-Cut Renata
+Cut Renata (UI/UX)
 
-Muhammad Faruqi
+Muhammad Faruqi (BackEnd)
 
-Hidayatullah
+Yafi Hidayatullah 2308107010059
 
 ✨ Fitur Utama (CRUD)
 Create (C): Pengguna dapat menambahkan resep baru lengkap dengan nama masakan, bahan-bahan, langkah memasak, dan foto.
