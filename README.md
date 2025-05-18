@@ -2,15 +2,15 @@
 Recepku adalah aplikasi berbagi resep yang memungkinkan pengguna untuk membuat, melihat, menghapus resep, dan mengedit profil mereka. Dibangun oleh tim yang bersemangat dalam dunia kuliner dan teknologi:
 
 👥 Tim Pengembang
-Mulia Andiki
+Mulia Andiki 2308107010013 (Frontend)
 
-Akrima Usri
+Akrimah Usri 2308107010009 (UIUX)
 
-Cut Renata
+Cut Renatha Fadhilah 2308107010037 (UIUX)
 
-Muhammad Faruqi
+Muhammad Faruqi 2308107010005 (Backend)
 
-Hidayatullah
+Yafi Hidayatullah 2308107010059 (UIUX)
 
 ✨ Fitur Utama (CRUD)
 Create (C): Pengguna dapat menambahkan resep baru lengkap dengan nama masakan, bahan-bahan, langkah memasak, dan foto.
@@ -39,8 +39,9 @@ bash
 Copy
 Edit
 recepku/
+├── UIUX /# Figma https://www.figma.com/design/W7rgZKJmDUxmQhD5ZGRiOL/PBW-gacor?node-id=9-3&t=l6vl4KDhks87a4UY-1
 ├── frontend/ # Next.js + TypeScript
-└── backend/ # Express.js + MongoDB
+└── backend/ # Express.js + MongoDB https://github.com/mfaruqi35/recepku-backend.git
 📦 Cara Menjalankan Aplikasi
 
 1. Clone Repository
