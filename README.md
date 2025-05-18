@@ -76,4 +76,5 @@ Pastikan MongoDB berjalan lokal atau menggunakan MongoDB Atlas.
 Recepku hadir sebagai ruang berbagi bagi pecinta kuliner. Temukan resep menarik, unggah kreasi masakanmu, dan tunjukkan siapa kamu lewat profilmu!
 
 Link Desain Figma: https://www.figma.com/design/W7rgZKJmDUxmQhD5ZGRiOL/PBW-gacor?node-id=0-1&t=wiYZ4aW2xRM52Zne-1
+
 Link Repository Backend: https://github.com/mfaruqi35/recepku-backend.git
